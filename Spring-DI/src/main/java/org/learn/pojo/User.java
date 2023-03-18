@@ -9,12 +9,14 @@ package org.learn.pojo;
  * @className USer
  * @date 2023/3/13 13:11
  */
+
 public class User {
     private String name;
     private int age;
 
     public User() {
     }
+
 
     public String getName() {
         return this.name;
