@@ -16,7 +16,8 @@ public class ProxyInvocationHandler implements InvocationHandler {
         return Proxy.newProxyInstance(this.getClass().getClassLoader(), Hoster.class.getInterfaces(),this);
     }
 
-    //重写反射方法，通过反射调用对应代理类的方法，返回运行结果
+
+    //重写invoke方法，通过反射调用对应代理类的方法，返回运行结果
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         Object result= method.invoke(rent,args);

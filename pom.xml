@@ -15,6 +15,7 @@
         <module>Spring-Anno</module>
         <module>Spring-Appconfig</module>
         <module>Spring-Proxy</module>
+        <module>Spring-AOP</module>
     </modules>
 
     <properties>
@@ -34,6 +35,11 @@
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.19</version>
         </dependency>
     </dependencies>
 </project>

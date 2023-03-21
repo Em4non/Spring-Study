@@ -4,38 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0b9fccf-3253-4637-b6a4-5c3e3244963d" name="变更" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Anno/src/main/java/org/learn/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Anno/src/main/java/org/learn/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Appconfig/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Appconfig/src/main/java/org/learn/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Appconfig/src/main/java/org/learn/pojo/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Appconfig/src/main/java/org/learn/pojo/config/AppConfig2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Appconfig/src/test/java/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo01/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo01/HostProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo01/Hoster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo01/rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo02/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo02/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo02/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo02/UserServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo03/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo03/Hoster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo03/ProxyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo03/rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo04/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo04/ProxyInvocationHandler.java" afterDir="false" />
+    <list default="true" id="b0b9fccf-3253-4637-b6a4-5c3e3244963d" name="变更" comment="Proxy">
+      <change afterPath="$PROJECT_DIR$/Spring-AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-AOP/src/main/java/org/learn/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-AOP/src/main/java/org/learn/service/afterLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-AOP/src/main/java/org/learn/service/beforeLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-AOP/src/main/java/org/learn/service/userService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-AOP/src/main/java/org/learn/service/userServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-AOP/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-AOP/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Anno/src/main/java/org/learn/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Anno/src/main/java/org/learn/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Anno/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Anno/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Anno/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Anno/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-DI/src/main/java/org/learn/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-DI/src/main/java/org/learn/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-IOC/src/main/java/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-IOC/src/main/java/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo03/ProxyInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo03/ProxyInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo04/ProxyInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Proxy/src/main/java/org/learn/demo04/ProxyInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring-Proxy/org/learn/demo04/ProxyInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring-Proxy/org/learn/demo04/ProxyInvocationHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,6 +67,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -101,7 +85,7 @@
       <recent name="$PROJECT_DIR$/Spring-Autowried/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.org.learn.demo04.Client">
+  <component name="RunManager" selected="应用程序.MyTest">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.demo01.Client" />
       <module name="Spring-Proxy" />
@@ -111,6 +95,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.Main" />
+      <module name="Spring-AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="Spring-AOP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,33 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.Test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-Appconfig" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-Anno" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.MyTest" />
+        <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.org.learn.demo04.Client" />
         <item itemvalue="应用程序.Client" />
         <item itemvalue="JUnit.MyTest (1)" />
-        <item itemvalue="JUnit.MyTest.Test1 (1)" />
-        <item itemvalue="JUnit.MyTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +170,10 @@
       <workItem from="1678804366802" duration="642000" />
       <workItem from="1678925536863" duration="6000" />
       <workItem from="1679014414882" duration="608000" />
-      <workItem from="1679154073136" duration="60000" />
+      <workItem from="1679154073136" duration="143000" />
+      <workItem from="1679359635006" duration="947000" />
+      <workItem from="1679370245013" duration="195000" />
+      <workItem from="1679382030991" duration="4667000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1678719687511</created>
@@ -195,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678719687511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Proxy">
+      <created>1679154199898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679154199898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +198,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy" />
   </component>
 </project>
